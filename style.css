@@ -1,0 +1,246 @@
+/* ===== RESET ===== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.7;
+    color: #222;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+    background: #ffffff;
+    border-bottom: 3px solid #0056b3; /* garis biru bawah navbar */
+}
+
+.nav-container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+
+.nav-menu li a:hover {
+    color: #0056b3;
+}
+
+.nav-menu li a.active {
+    color: #0056b3;
+}
+
+/* ===== BANNER ===== */
+.hero-banner {
+    width: 100%;
+    height: 100vh;              /* tinggi 1 layar penuh */
+    overflow-x: auto;           /* bisa geser kiri kanan */
+    overflow-y: hidden;
+}
+
+.hero-banner img {
+    width: 100%;
+    min-width: 1200px;          /* supaya bisa digeser di layar kecil */
+    height: 100%;
+    object-fit: cover;          /* biar tidak gepeng */
+    display: block;
+}
+
+.hero-banner {
+    cursor: grab;
+}
+
+.hero-banner.active {
+    cursor: grabbing;
+}
+
+/* Responsive Mobile */
+@media (max-width: 768px) {
+    .hero-banner {
+        height: 60vh;
+    }
+
+    .hero-banner img {
+        min-width: 1000px;      /* biar bisa swipe kiri kanan di HP */
+    }
+}
+
+/* ===== SECTION UTAMA*/
+.section {
+    padding: 60px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.section h1 {
+    font-size: 28px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: #0056b3;
+}
+
+.section h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
+    font-size: 20px;
+    color: #003d80;
+}
+
+.link-highlight {
+    color: #0056b3;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.link-highlight:hover {
+    text-decoration: underline;
+}
+
+.content-box {
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.content-box p {
+    margin-bottom: 12px;
+}
+
+.content-box ul {
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+
+.content-box ul li {
+    margin-bottom: 8px;
+}
+
+/* ===== TABLE SCHEDULE ===== */
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.schedule-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.schedule-table tr:hover {
+    background: #f1f1f1;
+}
+
+/* ===== REGISTRATION BOX ===== */
+.price-box {
+    background: #eef4ff;
+    padding: 20px;
+    margin-top: 20px;
+    border-left: 5px solid #0056b3;
+}
+
+/* ===== PARTNERS ===== */
+.partners {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 60px 20px;
+    background: #f4f4f4;
+    flex-wrap: wrap;
+}
+
+.partner-item {
+    text-align: center;
+}
+
+.partner-item h3 {
+    font-size: 20px;
+    color: #000000;
+}
+.partner-item p {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333;
+}
+.partner-item img {
+    width: 200px;
+    height: 200px;
+}
+
+/* ===== COMMITTEE ===== */
+.committee-list p {
+    margin-bottom: 8px;
+}
+
+.committee-title {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 18px;
+    color: #0056b3;
+}
+
+/* ===== CONTACT ===== */
+.contact-box {
+    background: #f8f9fa;
+    padding: 30px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.contact-box p {
+    margin-bottom: 10px;
+}
+
+.contact-email {
+    font-weight: bold;
+    color: #0056b3;
+}
+
+/* ===== FOOTER ===== */
+footer {
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 768px) {
+
+    .nav-menu {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .partners {
+        flex-direction: column;
+        gap: 40px;
+    }
+
+}
