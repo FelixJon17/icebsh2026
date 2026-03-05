@@ -18,15 +18,15 @@
             <ul class="nav-menu">
                 <li><a href="index.php">HOME</a></li>
                 <li><a href="callforpaper.php">CALL FOR PAPER</a></li>
-                <li><a href="submissions.php" class="active">SUBMISSIONS</a></li>
+                <li><a href="submissions.php">SUBMISSIONS</a></li>
                 <li><a href="committee.php">COMMITTEE</a></li>
-                <li><a href="contact.php">CONTACT</a></li>
+                <li><a href="contact.php" class="active">CONTACT</a></li>
             </ul>
         </nav>
     </div>
 </header>
 
-<div class="hero-banner">
+<div class="alt-banner"> 
     <img src="img/icebsh.png" alt="Banner">
 </div>
 
