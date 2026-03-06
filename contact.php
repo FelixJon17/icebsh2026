@@ -26,10 +26,6 @@
     </div>
 </header>
 
-<div class="alt-banner"> 
-    <img src="img/icebsh.png" alt="Banner">
-</div>
-
 <section class="section">
     <h1>CONTACT US</h1>
     <div class="contact-box">
