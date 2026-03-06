@@ -26,7 +26,7 @@
 </header>
 
 <div class="hero-banner">
-    <img src="img/icebsh.png" alt="ICEBSH Banner">
+    <img src="img/icebsh1.png" alt="ICEBSH Banner">
 </div>
 <main>
 <section class="section">
