@@ -29,6 +29,7 @@
     <img src="img/icebsh1.png" alt="ICEBSH Banner">
 </section>
 
+<main>
 <section class="section">
     <h1>SPEAKERS</h1>
     <div class="content-box">
@@ -60,19 +61,19 @@
     <div class="partner-item">
         <h3>ORGANIZED BY</h3>
         <p>
-            <a href="https://untar.ac.id" target="_blank">
+            <a href="https://untar.ac.id" target="_blank" rel="noopener noreferrer">
             Universitas Tarumanagara</a>
         </p>
-        <img src="img/untar.png" alt="">
+        <img src="img/untar.png" alt="Universitas Tarumanagara logo">
     </div>
 
     <div class="partner-item">
         <h3>CO-HOST BY</h3>
         <p>
-            <a href="https://untar.ac.id" target="_blank">
+            <a href="https://untar.ac.id" target="_blank" rel="noopener noreferrer">
             Kun Shan University</a>
         </p>
-        <img src="img/kunshan.png" alt="">
+        <img src="img/kunshan.png" alt="Kun Shan University logo">
     </div>
 </section>
 </main>
@@ -84,6 +85,7 @@
 <script>
 const banner = document.querySelector('.hero-banner');
 
+if (banner) {
 let isDown = false;
 let startX;
 let scrollLeft;
@@ -110,6 +112,7 @@ banner.addEventListener('mousemove', (e) => {
     const walk = (x - startX) * 2;
     banner.scrollLeft = scrollLeft - walk;
 });
+}
 </script>
 
 </body>

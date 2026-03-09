@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Submissions - ICEBSH 2026</title>
+    <title>Contact - ICEBSH 2026</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 </head>
@@ -31,7 +31,7 @@
     <h1>CONTACT US</h1>
     <div class="contact-box">
 
-        <p>Sekretariat ICASTE</p>
+        <p>Secretariat ICEBSH</p>
         <p>LPPM - Universitas Tarumanagara</p>
         <p>Jl. Let. Jend. S. Parman No.1 Jakarta 11440</p>
 
