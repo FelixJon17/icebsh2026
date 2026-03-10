@@ -138,11 +138,7 @@ body {
     padding: 60px 20px;
     max-width: 1000px;
     margin: auto;
-
-    /* tambahan agar font mengikuti CFP */
     font-family: Georgia, "Times New Roman", serif;
-
-    /* mengurangi gap antar section */
     padding-top: 40px;
     padding-bottom: 40px;
 }
@@ -153,8 +149,6 @@ body {
     margin-bottom: 0px;
     text-align: left;
     color: #1d2b4f;
-
-    /* sedikit jarak ke konten */
     margin-bottom: 10px;
 }
 
@@ -197,7 +191,6 @@ body {
     margin-bottom: 8px;
 }
 
-/* tambahan agar list schedule rapi seperti CFP */
 .home-content-box ol {
     padding-left: 25px;
     margin-top: 10px;
@@ -205,6 +198,36 @@ body {
 
 .home-content-box ol li {
     margin-bottom: 8px;
+}
+
+/* ===== PARTNERS ===== */
+.partners {
+    border-top: #a19f9f solid 1px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    padding: 60px 20px;
+    background: #ffffff;
+    flex-wrap: wrap;
+}
+
+.partner-item {
+    text-align: center;
+}
+
+.partner-item h3 {
+    font-size: 20px;
+    color: #6f7785;
+}
+.partner-item a {
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #4c9cbb;
+}
+.partner-item img {
+    width: 200px;
+    height: 200px;
 }
 
 /* CALL FOR PAPER */
@@ -242,60 +265,6 @@ body {
 
 .cfp-content li{
     margin-bottom:10px;
-}
-
-/* ===== TABLE SCHEDULE ===== */
-.schedule-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
-}
-
-.schedule-table td {
-    padding: 12px;
-    border-bottom: 1px solid #ddd;
-}
-
-.schedule-table tr:hover {
-    background: #f1f1f1;
-}
-
-/* ===== REGISTRATION BOX ===== */
-.price-box {
-    background: #eef4ff;
-    padding: 20px;
-    margin-top: 20px;
-    border-left: 5px solid #0056b3;
-}
-
-/* ===== PARTNERS ===== */
-.partners {
-    border-top: #a19f9f solid 1px;
-    display: flex;
-    justify-content: center;
-    gap: 100px;
-    padding: 60px 20px;
-    background: #ffffff;
-    flex-wrap: wrap;
-}
-
-.partner-item {
-    text-align: center;
-}
-
-.partner-item h3 {
-    font-size: 20px;
-    color: #6f7785;
-}
-.partner-item a {
-    margin-bottom: 5px;
-    font-size: 16px;
-    font-weight: bold;
-    color: #4c9cbb;
-}
-.partner-item img {
-    width: 200px;
-    height: 200px;
 }
 
 /* ===== SUBMISSION ===== */
@@ -344,7 +313,7 @@ body {
     text-decoration: underline;
 }
 
-/* ===== COMMITTEE ===== */
+/* COMMITTEE */
 .committee-container{
 max-width: 1100px;
 margin: 120px auto 80px auto;
@@ -394,7 +363,7 @@ padding-left: 20px;
 margin-bottom: 6px;
 }
 
-/* ===== CONTACT ===== */
+/* CONTACT */
 .contact-section{
     padding:60px 20px;
     max-width:1000px;
@@ -431,7 +400,7 @@ margin-bottom: 6px;
     min-height:calc(100vh - 160px);
 }   
 
-/* ===== FOOTER ===== */
+/* FOOTER */
 footer {
     background: #07184a;
     color: #fff;
@@ -450,7 +419,7 @@ footer a:hover{
     text-decoration: underline;
 }
 
-/* ===== RESPONSIVE ===== */
+/* RESPONSIVE */
 .menu-toggle{
     display:none;
     font-size:28px;
